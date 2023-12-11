@@ -26,7 +26,7 @@ public class GameController {
         while(!board.isGameFinished()){
             int option = optionInput(MESSAGE_OPTION);
             if(option == 1) {
-                int number = getUserInput("Enter a number 0-8: ");
+                int number = getUserInput("Enter a number 1-9: ");
                 int line = getUserInput("Enter a line 0-8: ");
                 int column = getUserInput("Enter a row 0-8: ");
 
@@ -80,7 +80,7 @@ public class GameController {
                 if (input >= 0 && input <= 9) {
                     validInput = true;
                 } else {
-                    System.out.println("Invalid input. Please enter a number between 0 and 8.");
+                    System.out.println("Invalid input. Please enter a number between 1 and 9.");
                 }
             }
             catch (InputMismatchException e){

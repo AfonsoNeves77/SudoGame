@@ -5,8 +5,6 @@ S
 #src/main/java/org/example/Main.java,0\b\0ba1b9c7a4878802f938e331cc2d8a042087ec6b
 T
 $src/main/java/org/example/Board.java,b\c\bca2cdad0452c700a1f037c0ac0823e4ba8180f8
-T
-$src/main/java/org/example/Plays.java,7\3\732c98a7304a7447adbeee39085ae713db286aeb
 X
 (src/test/java/org/example/BoardTest.java,1\7\178bb9f006e6698450eebf1a78417bf88f73f37d
 ]
