@@ -269,17 +269,17 @@ public class WordBoard {
 
        if(coordWord2.length != 0 && coordWord1.length != 0) {
 
-           int x1Inicio = Math.min(coordWord1[0], coordWord1[2]);
-           int y1Inicio = Math.min(coordWord1[1], coordWord1[3]);
-           int x1Fim = Math.max(coordWord1[0], coordWord1[2]);
-           int y1Fim = Math.max(coordWord1[1], coordWord1[3]);
+           int x1Beg = Math.min(coordWord1[0], coordWord1[2]);
+           int y1Beg = Math.min(coordWord1[1], coordWord1[3]);
+           int x1End = Math.max(coordWord1[0], coordWord1[2]);
+           int y1End = Math.max(coordWord1[1], coordWord1[3]);
 
-           int x2Inicio = Math.min(coordWord2[0], coordWord2[2]);
-           int y2Inicio = Math.min(coordWord2[0], coordWord2[3]);
-           int x2Fim = Math.max(coordWord2[0], coordWord2[2]);
-           int y2Fim = Math.max(coordWord2[0], coordWord2[3]);
+           int x2Beg = Math.min(coordWord2[0], coordWord2[2]);
+           int y2Beg = Math.min(coordWord2[0], coordWord2[3]);
+           int x2End = Math.max(coordWord2[0], coordWord2[2]);
+           int y2End = Math.max(coordWord2[0], coordWord2[3]);
 
-           return (x1Inicio <= x2Fim && x1Fim >= x2Inicio && y1Inicio <= y2Fim && y1Fim >= y2Inicio);
+           return (x1Beg <= x2End && x1End >= x2Beg && y1Beg <= y2End && y1End >= y2Beg);
        }
        return false;
     }
