@@ -1,0 +1,13 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(«Ï«ãşÿÿÿÿ8§²½ Ç1
+z	java:S116"YRename this field "MESSAGE_OPTION" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·øõ¿üÿÿÿÿ8¶²½ Ç1
+C
+java:S1170"!Make this final field static too.(·øõ¿üÿÿÿÿ8¶²½ Ç1
+G	java:S106"+Replace this use of System.out by a logger.(“üÆñ8¿²½ Ç1
+L	java:S106"+Replace this use of System.out by a logger.(èÁæ¡ùÿÿÿÿ8Á²½ Ç1
+L	java:S106"+Replace this use of System.out by a logger.(ç¦£äøÿÿÿÿ8Ì²½ Ç1
+G	java:S106"+Replace this use of System.out by a logger.(ğúò8Í²½ Ç1
+G	java:S106#"+Replace this use of System.out by a logger.(°Û8Î²½ Ç1
+G	java:S106&"+Replace this use of System.out by a logger.(õİ’Ô8Ï²½ Ç1
+L	java:S106+"+Replace this use of System.out by a logger.(«¥ãûÿÿÿÿ8Ñ²½ Ç1
+G	java:S106."+Replace this use of System.out by a logger.(áóÍ„8Ò²½ Ç1

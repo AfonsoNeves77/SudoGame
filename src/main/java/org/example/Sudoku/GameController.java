@@ -1,4 +1,6 @@
-package org.example;
+package org.example.Sudoku;
+
+import org.example.Sudoku.Board;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -40,7 +42,6 @@ public class GameController {
             }
             board.printBoard();
         }
-
         System.out.println("Congrats! You have completed the game!");
 
     }

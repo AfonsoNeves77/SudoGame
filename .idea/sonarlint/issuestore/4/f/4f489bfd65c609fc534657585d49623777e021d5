@@ -1,0 +1,16 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(µ¹üıùÿÿÿÿ8‚µ›‚Æ1
+z	java:S116"YRename this field "MESSAGE_OPTION" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·øõ¿üÿÿÿÿ8˜ƒíÚÅ1
+C
+java:S1170"!Make this final field static too.(·øõ¿üÿÿÿÿ8™ƒíÚÅ1
+L	java:S106"+Replace this use of System.out by a logger.(æÍÉ¬ÿÿÿÿÿ8³ƒíÚÅ1
+G	java:S106-"+Replace this use of System.out by a logger.(°ÇşÁ8ÜƒíÚÅ1
+L	java:S1067"+Replace this use of System.out by a logger.(Æİêùÿÿÿÿ8áƒíÚÅ1
+L	java:S106<"+Replace this use of System.out by a logger.(à®·Ôıÿÿÿÿ8èƒíÚÅ1
+G	java:S106@"+Replace this use of System.out by a logger.(ùŞô8ëƒíÚÅ1
+L	java:S106O"+Replace this use of System.out by a logger.(Æİêùÿÿÿÿ8òƒíÚÅ1
+G	java:S106T"+Replace this use of System.out by a logger.(ô¦¹ÿ8öƒíÚÅ1
+G	java:S106X"+Replace this use of System.out by a logger.(ßÌöá8øƒíÚÅ1
+G	java:S106c"+Replace this use of System.out by a logger.(ôğ¨Ó8ÿƒíÚÅ1
+v
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(·££’úÿÿÿÿ8‰„ïÒÆ1

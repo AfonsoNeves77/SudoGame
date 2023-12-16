@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Sudoku;
 
 import java.util.Arrays;
 

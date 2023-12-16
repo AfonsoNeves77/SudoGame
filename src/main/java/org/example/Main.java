@@ -1,13 +1,20 @@
 package org.example;
 
+import org.example.SopaLetras.WordBoard;
+import org.example.SopaLetras.WordGameController;
+import org.example.Sudoku.GameController;
+
 import java.util.Arrays;
 
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) throws InstantiationException {
-      GameController gameController = new GameController(2);
-      gameController.startGame();
+      /*GameController gameController = new GameController(2);
+      gameController.startGame();*/
+        WordGameController wb = new WordGameController(1);
+        wb.gameLogic(3, "cats","coff",0,0,0,3);
+
+
+
 
     }
 }
