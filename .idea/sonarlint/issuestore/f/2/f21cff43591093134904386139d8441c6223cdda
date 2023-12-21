@@ -1,0 +1,10 @@
+
+m	java:S117
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®Šé½8¿ÓÊŞÈ1
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢àõ8ÀÓÊŞÈ1
+b
+java:S22598"@A "NullPointerException" could be thrown; "st" is nullable here.(ëÛ‹ÿÿÿÿÿ8ÇÔÊŞÈ1
+l
+java:S2259:"JA "NullPointerException" could be thrown; "selectedRoom" is nullable here.(ß„®úÿÿÿÿ8ÇÔÊŞÈ1
+l
+java:S2259>"JA "NullPointerException" could be thrown; "selectedRoom" is nullable here.(ÌÙÀÿúÿÿÿÿ8ÇÔÊŞÈ1

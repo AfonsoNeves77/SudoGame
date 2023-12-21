@@ -1,0 +1,72 @@
+@startuml
+skinparam style strictuml
+skinparam DefaultFontName Arial
+skinparam DefaultFontSize 15
+skinparam DefaultFontStyle bold
+skinparam ArrowThickness 2.2
+skinparam ArrowColor #gray
+skinparam ClassAttributeFontSize 16
+hide empty members
+class "User" as User {
+
+}
+class "Role" as role {
+
+}
+class "Administrator" as A {
+
+}
+class "Regular User" as RU {
+
+}
+class "Power User" as PU {
+
+}
+class "Room Owner" as RO {
+
+}
+class "House" {
+Adress
+ZipCode
+GPS location
+
+
+}
+class "Floor"  {
+
+}
+class "Room" {
+Name
+Dimensions
+
+}
+
+class "Device"  {
+Name
+"Room"
+}
+
+class "Sensor"  {
+
+}
+
+class "Actuator"  {
+
+}
+
+User "1"  --- "1" House : creates  >
+User "1"  -- "*" User : adds new  >
+User "1.*"  -- "1" role : has  >
+role "1"  -- "1" A : is  >
+role "1"  -- "1" PU : is  >
+role "1"  -- "1" RO : is  >
+role "1"  -- "1" RU : is  >
+User "1"  ----- "*" Room : creates >
+User "*"  -- "*" Room : is managed by <
+House "1"  -- "*" Floor : has  >
+Floor "1"  -- "*" Room : has  >
+Room "1"  -- "*" Device : has  >
+Device "1"  -- "1.*" Sensor : is  >
+Device "1"  -- "0..1" "Actuator" : is  >
+
+@enduml

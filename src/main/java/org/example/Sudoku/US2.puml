@@ -1,0 +1,21 @@
+@startuml
+
+actor Administrator
+participant System
+participant House
+participant Room
+
+note over Administrator: Initiates room addition
+autonumber
+Administrator -> System: Request to add a new room
+activate System
+
+System -> House: Create a new Room with attributes (name, floor, dimensions)
+activate House
+House --> Room: New Room created with attributes
+deactivate House
+deactivate System
+
+
+
+@enduml

@@ -1,0 +1,24 @@
+@startuml
+
+actor Administrator
+participant SmartHouseSystem
+participant House
+
+note over Administrator: Initiates house creation
+autonumber
+Administrator -> SmartHouseSystem: Request house creation
+activate SmartHouseSystem
+
+SmartHouseSystem -> House: Create a new House
+activate House
+House --> SmartHouseSystem: New House created
+deactivate House
+
+SmartHouseSystem -> House: Input for initial location
+activate House
+House --> SmartHouseSystem: Location of the house configured
+deactivate House
+
+deactivate SmartHouseSystem
+
+@enduml

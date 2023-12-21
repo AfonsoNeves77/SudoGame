@@ -1,0 +1,43 @@
+@startuml
+
+actor Administrator
+participant System
+participant House
+participant Room
+autonumber
+note over Administrator: Initiates room editing
+
+Administrator -> System: Request list of existing rooms
+activate System
+
+System -> House: Retrieve list of existing rooms
+activate House
+House --> System: List of existing rooms
+deactivate House
+
+System -> Administrator: Present list of existing rooms
+activate Administrator
+
+note over Administrator: Administrator chooses a Room from the list
+
+Administrator -> System: Request to edit a specific Room
+activate System
+
+System -> House: Retrieve details of the selected Room
+activate House
+House --> System: Details of the selected Room
+deactivate House
+
+note over Administrator: Administrator edits the Room details
+
+Administrator -> Room: Edit Room details
+deactivate Administrator
+
+Room --> System: Updated Room details
+deactivate Room
+
+deactivate System
+
+
+
+@enduml

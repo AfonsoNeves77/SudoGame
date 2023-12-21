@@ -1,0 +1,24 @@
+@startuml
+left to right direction
+actor Admin
+actor PowerUser
+
+rectangle SmartHouseSys{
+    usecase "create house" as ch
+    usecase "configures location of the house" as cl
+    usecase "adds new room " as ar
+     usecase "lists existing rooms" as ler
+    usecase "edits room" as er
+     usecase "defines a sensor type" as dst
+     usecase "adds new sensor to a room" as anr
+
+}
+ Admin  --> ch
+ Admin  --> cl
+ Admin  --> ar
+  Admin  --> ler
+ Admin  --> er
+ Admin  --> dst
+  Admin  --> anr
+  PowerUser --> anr
+@enduml

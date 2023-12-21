@@ -1,0 +1,25 @@
+@startuml
+
+actor Administrator
+participant System
+participant Sensor
+
+note over Administrator: Initiates sensor type definition
+
+Administrator -> System: Request to define a new sensor type
+activate System
+
+System -> Administrator: Insert sensor type information
+activate Administrator
+
+Administrator --> System: Sensor type information
+deactivate Administrator
+
+System -> Sensor: Create new sensor type
+activate Sensor
+
+Sensor --> System: New sensor type created
+deactivate Sensor
+
+
+@enduml

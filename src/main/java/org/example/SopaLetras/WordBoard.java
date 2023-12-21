@@ -65,7 +65,7 @@ public class WordBoard {
     }
 
 
-    public int[] wordExists(char[] word) {
+    protected int[] wordExists(char[] word) {
         if (word.length > 0) {
             for (int y = 0; y < this.wordBoard.length; y++) {
                 for (int x = 0; x < this.wordBoard[y].length; x++) {
@@ -275,9 +275,9 @@ public class WordBoard {
            int y1End = Math.max(coordWord1[1], coordWord1[3]);
 
            int x2Beg = Math.min(coordWord2[0], coordWord2[2]);
-           int y2Beg = Math.min(coordWord2[0], coordWord2[3]);
+           int y2Beg = Math.min(coordWord2[1], coordWord2[3]);
            int x2End = Math.max(coordWord2[0], coordWord2[2]);
-           int y2End = Math.max(coordWord2[0], coordWord2[3]);
+           int y2End = Math.max(coordWord2[1], coordWord2[3]);
 
            return (x1Beg <= x2End && x1End >= x2Beg && y1Beg <= y2End && y1End >= y2Beg);
        }

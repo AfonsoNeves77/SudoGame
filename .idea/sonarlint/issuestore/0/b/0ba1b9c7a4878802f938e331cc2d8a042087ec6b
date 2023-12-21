@@ -1,8 +1,18 @@
 
-X	java:S125"<This block of commented-out lines of code should be removed.(óìªÉ8õÀ¿ Ç1
-Z
-java:S1128"=Remove this unused import 'org.example.SopaLetras.WordBoard'.(ïş÷Á8öÀ¿ Ç1
-Z
-java:S1128">Remove this unused import 'org.example.Sudoku.GameController'.(õÒåK8öÀ¿ Ç1
-O
-java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8÷À¿ Ç1
+j
+java:S1192-"HDefine a constant instead of duplicating this literal "BedRoom" 3 times.(‡•Õúøÿÿÿÿ8Òô¯ßÈ1
+n
+java:S11924"LDefine a constant instead of duplicating this literal "temperature" 3 times.(ÍÇ•àıÿÿÿÿ8Òô¯ßÈ1
+r	java:S117F"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âĞµıÿÿÿÿ8âô¯ßÈ1
+l
+java:S2259A"JA "NullPointerException" could be thrown; "selectedRoom" is nullable here.(ë½ñÈüÿÿÿÿ8‚õ¯ßÈ1
+–
+java:S1130"yRemove the declaration of thrown exception 'java.lang.InstantiationException', as it cannot be thrown from method's body.(¥šÆ‚8’õ¯ßÈ1
+X	java:S125"<This block of commented-out lines of code should be removed.(óìªÉ8’õ¯ßÈ1
+G	java:S106&"+Replace this use of System.out by a logger.(«—ü8’õ¯ßÈ1
+G	java:S106*"+Replace this use of System.out by a logger.(«—ü8¢õ¯ßÈ1
+L	java:S1061"+Replace this use of System.out by a logger.(€ƒ´şÿÿÿÿ8¢õ¯ßÈ1
+L	java:S106A"+Replace this use of System.out by a logger.(ë½ñÈüÿÿÿÿ8±õ¯ßÈ1
+L	java:S106D"+Replace this use of System.out by a logger.(ŒÜÑĞşÿÿÿÿ8±õ¯ßÈ1
+C
+java:S1128"&Remove this unused import 'java.util'.(Î€ŒÙ8±õ¯ßÈ1
